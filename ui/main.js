@@ -4,7 +4,7 @@ var element = document.getElementById('main-text');
 
 element.innerHTML = 'New experience using java script has beeen served';
 
-var img = document.getElementById('lokesh');
+var img = document.getElementById('madi');
 
 img.onclick = function(){
     img.style.marginLeft ='100px';
