@@ -5,7 +5,12 @@ var element = document.getElementById('main-text');
 element.innerHTML = 'New experience using java script has beeen served';
 
 var img = document.getElementById('lokesh');
+var marginRight = 0;
+function moveRight(){
+    marginRight = marginRight + 1;
+img.style.marginRight = marginRight + px;
+}
 
 img.onclick = function(){
-    img.style.marginLeft ='100px';
+    var interval = setInterval(moveRight,50);
 };
