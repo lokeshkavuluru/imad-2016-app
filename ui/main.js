@@ -8,7 +8,7 @@ var img = document.getElementById('lokesh');
 var marginRight = 0;
 function moveRight(){
     marginRight = marginRight + 1;
-img.style.marginRight = marginRight + px;
+img.style.marginRight = marginRight + 'px';
 }
 
 img.onclick = function(){
