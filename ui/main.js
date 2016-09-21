@@ -4,9 +4,9 @@ var element = document.getElementById('main-text');
 
 element.innerHTML = 'New experience using java script has beeen served';
 
-var img = document.getElementId('img');
+var img = document.getElementId('lokesh');
 
 img.onclick = function()
 {
     img.style.marginLeft('100px');
-}
+};
