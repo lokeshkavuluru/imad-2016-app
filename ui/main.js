@@ -7,5 +7,5 @@ element.innerHTML = 'New experience using java script has beeen served';
 var img = document.getElementById('lokesh');
 
 img.onclick = function(){
-    img.style.marginLeft='100px';
+    img.style.marginLeft ='100px';
 };
